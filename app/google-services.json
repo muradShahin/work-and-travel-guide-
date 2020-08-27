@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "991640120938",
+    "firebase_url": "https://workandtravel-c7efb.firebaseio.com",
+    "project_id": "workandtravel-c7efb",
+    "storage_bucket": "workandtravel-c7efb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991640120938:android:79bcf78974811857672413",
+        "android_client_info": {
+          "package_name": "com.workandtravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991640120938-t6iifartkbdtlkpj8623qja74kq0aq37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workandtravel",
+            "certificate_hash": "bbcfe7cb15c21371fe927b4e1556b7f0683870de"
+          }
+        },
+        {
+          "client_id": "991640120938-0r3vatsv1deotcg1p05osl3frbsqdi4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM-JOefi-DsEP3vdjkm2wMXAH9pbOgR7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991640120938-0r3vatsv1deotcg1p05osl3frbsqdi4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

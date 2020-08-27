@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.workandtravel.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.workandtravel.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.workandtravel.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.workandtravel.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" >
+        <action
+            android:id="@+id/action_nav_tools_to_agency"
+            app:destination="@id/agency" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.workandtravel.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" >
+        <action
+            android:id="@+id/action_nav_share_to_insideEmbassy"
+            app:destination="@id/insideEmbassy" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.workandtravel.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" >
+
+        <action
+            android:id="@+id/action_nav_send_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/insideEmbassy"
+        android:name="com.workandtravel.ui.myFragments.insideEmbassy"
+        android:label="Embassy details"
+        tools:layout="@layout/fragment_inside_embassy" />
+    <fragment
+        android:id="@+id/agency"
+        android:name="com.workandtravel.ui.myFragments.agency"
+        android:label="agency" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.workandtravel.ui.myFragments.about"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="600dp"
+    tools:context=".ui.activites.addPost">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/strH1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/strH2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/strH3"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/strH4"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="4dp"
+        android:text="@string/strUpload" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/postH"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/upload" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/publish"
+        android:layout_width="@dimen/postH"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape"
+        android:text="@string/strpublish"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="@dimen/postH"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape"
+        android:text="@string/strCansel"
+        android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>
